@@ -9,7 +9,6 @@ import java.sql.Statement;
 
 public class BaseDatos {
 	public Connection conexion;
-
 	public BaseDatos() {
 		try {
 			this.conexion = DriverManager.getConnection("jdbc:sqlite:sample.db");
